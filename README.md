@@ -78,7 +78,3 @@ The scraper relies on the website's current structure. If the structure changes,
 Limited to publicly available data; login-protected content is not scraped.
 License
 This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
