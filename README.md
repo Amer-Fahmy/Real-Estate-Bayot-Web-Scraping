@@ -19,28 +19,29 @@ This project is a web scraper built with Scrapy to extract real estate listings 
    ```bash
    git clone https://github.com/Amer-Fahmy/Real-Estate-Bayut-Web-Scraping.git
    cd real_estate_scraper
-Install the required dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Note: Make sure you have Python 3.10+ installed.
+   ```
 
-Usage
-Run the spider using the main.py script:
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   > **Note**: Make sure you have Python 3.10+ installed.
 
-bash
-Copy
-Edit
+## Usage
+
+Run the spider using the `main.py` script:
+
+```bash
 python main.py
-The scraped data will be saved in a file named real_estate_data_bayut_full.json in the project folder.
+```
 
-Logs of the scraping process will be saved in scrapy_output.log.
+The scraped data will be saved in a file named `real_estate_data_bayut_full.json` in the project folder.
 
-Project Structure
-bash
-Copy
-Edit
+Logs of the scraping process will be saved in `scrapy_output.log`.
+
+## Project Structure
+
+```
 real_estate_scraper/
 ├── spiders/
 │   └── real_estate_spider.py   # The Scrapy spider class
@@ -48,12 +49,13 @@ real_estate_scraper/
 ├── requirements.txt            # List of dependencies
 ├── README.md                   # Project documentation
 ├── .gitignore                  # Ignored files and folders
-Example Output
+```
+
+## Example Output
+
 Here’s an example of what the scraped data might look like:
 
-json
-Copy
-Edit
+```json
 [
   {
     "link": "https://www.bayut.eg/en/property/details-501189976.html",
@@ -68,13 +70,19 @@ Edit
     "plan_type": "off_plan"
   }
 ]
-Customization
-If you want to scrape a different category of properties or add more data fields:
+```
 
-Open spiders/real_estate_spider.py.
-Update the selectors in the parse() and parse_detail_page() methods to target new elements.
-Known Limitations
-The scraper relies on the website's current structure. If the structure changes, the spider might require updates.
-Limited to publicly available data; login-protected content is not scraped.
-License
+## Customization
+
+If you want to scrape a different category of properties or add more data fields:
+- Open `spiders/real_estate_spider.py`.
+- Update the selectors in the `parse()` and `parse_detail_page()` methods to target new elements.
+
+## Known Limitations
+
+- The scraper relies on the website's current structure. If the structure changes, the spider might require updates.
+- Limited to publicly available data; login-protected content is not scraped.
+
+## License
+
 This project is licensed under the MIT License.
