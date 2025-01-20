@@ -17,7 +17,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/real_estate_scraper.git
+git clone https://github.com/Amer-Fahmy/Real-Estate-Bayot-Web-Scraping.git
 cd real_estate_scraper
 Install the required dependencies:
 
