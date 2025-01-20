@@ -57,7 +57,7 @@ Copy
 Edit
 [
   {
-    "link": "https://www.bayut.eg/en/property-detail/example-link",
+    "link": "https://www.bayut.eg/en/property/details-501189976.html", 
     "price": "3,000,000",
     "currency": "EGP",
     "type": "Apartment",
