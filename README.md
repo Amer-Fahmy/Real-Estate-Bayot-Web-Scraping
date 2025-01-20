@@ -1,26 +1,25 @@
 # Real Estate Scraper
-This project is a web scraper built with Scrapy to extract real estate listings from the Bayut website. It collects information such as property price, type, location, area, number of bedrooms, and more.
-the dataset is avalible on [Kaggle](https://www.kaggle.com/datasets/ameribrahim/real-estate-bayot-egypt/data)
 
-Features
-Scrapes real estate property listings from Bayut.
-Extracts data such as:
-Price
-Location
-Type (e.g., apartment, villa)
-Area
-Number of bedrooms and bathrooms
-Saves the scraped data in JSON format for easy reuse.
-Installation
-Clone this repository:
+This project is a web scraper built with Scrapy to extract real estate listings from the Bayut website. It collects information such as property price, type, location, area, number of bedrooms, and more. The dataset is available on [Kaggle](https://www.kaggle.com).
 
-bash
-Copy
-Edit
-git clone https://github.com/Amer-Fahmy/Real-Estate-Bayot-Web-Scraping.git
-cd real_estate_scraper
+## Features
+
+- Scrapes real estate property listings from Bayut.
+- Extracts data such as:
+  - **Price**
+  - **Location**
+  - **Type** (e.g., apartment, villa)
+  - **Area**
+  - **Number of bedrooms and bathrooms**
+- Saves the scraped data in JSON format for easy reuse.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Amer-Fahmy/Real-Estate-Bayut-Web-Scraping.git
+   cd real_estate_scraper
 Install the required dependencies:
-
 bash
 Copy
 Edit
@@ -57,7 +56,7 @@ Copy
 Edit
 [
   {
-    "link": "https://www.bayut.eg/en/property/details-501189976.html", 
+    "link": "https://www.bayut.eg/en/property/details-501189976.html",
     "price": "3,000,000",
     "currency": "EGP",
     "type": "Apartment",
@@ -80,3 +79,6 @@ Limited to publicly available data; login-protected content is not scraped.
 License
 This project is licensed under the MIT License.
 
+yaml
+Copy
+Edit
